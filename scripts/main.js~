@@ -1,0 +1,18 @@
+/* Author: Daniel Fernandez Mancilla
+   Copyrights: All rights reserved.
+   Date: 14/03/2016
+*/
+
+var myImage = document.querySelector('img');
+
+myImage.onclick = function(){
+    var myScr = myImage.getAttribute('scr');
+    if(myScr === 'images/firefox-icon.png'){
+	myImage.setAttribute('scr', 'images/im1.png');
+	}else{
+	    myImage.setAttribute('scr','images/firefox-icon.png');
+
+	}
+
+
+	}
